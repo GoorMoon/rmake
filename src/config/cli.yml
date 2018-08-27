@@ -1,0 +1,6 @@
+name: rmake
+author: Roman Gordon <goormoon@gmail.com>
+about: rmake - make utility to maintain groups of programs
+settings:
+    - DeriveDisplayOrder
+    - UnifiedHelpMessage
