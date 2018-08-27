@@ -1,16 +1,9 @@
 #[macro_use]
 extern crate clap;
+extern crate rmake_lib;
 
 use clap::{App, Arg};
-use std::path::Path;
-
-fn path_is_exists(path: String) -> Result<(), String> {
-    if Path::new(&path).is_file() {
-        Ok(())
-    } else {
-        Err(format!("The file <{}> doesn't exists", path))
-    }
-}
+use rmake_lib::validators::path_is_exists;
 
 fn main() {
     let yaml_config = load_yaml!("config/cli.yml");

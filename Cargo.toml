@@ -3,5 +3,8 @@ name = "rmake"
 version = "0.1.0"
 authors = ["Roman Gordon <goormoon@gmail.com>"]
 
+[workspaces]
+
 [dependencies]
+rmake_lib = { path = "rmake_lib" }
 clap = {version = "~2.27.0", features = ["yaml"]}

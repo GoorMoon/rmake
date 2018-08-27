@@ -1,0 +1,6 @@
+[package]
+name = "rmake_lib"
+version = "0.1.0"
+authors = ["Roman Gordon <goormoon@gmail.com>"]
+
+[dependencies]
