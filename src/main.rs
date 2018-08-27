@@ -5,6 +5,10 @@ extern crate rmake_lib;
 use clap::{App, Arg};
 use rmake_lib::validators::path_is_exists;
 
+pub struct MakeOptions{
+    makefile: String,
+}
+
 fn main() {
     let yaml_config = load_yaml!("config/cli.yml");
     let matches = App::from_yaml(yaml_config)
