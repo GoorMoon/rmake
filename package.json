@@ -1,0 +1,7 @@
+{
+  "scripts":{
+    "start": "cargo run --",
+    "test:lib": "cargo test --manifest-path rmake_lib\\Cargo.toml",
+    "test": "cargo test"
+  }
+}

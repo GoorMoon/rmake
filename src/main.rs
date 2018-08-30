@@ -6,7 +6,7 @@ use clap::{App, Arg};
 use rmake_lib::validators::path_is_exists;
 
 pub struct MakeOptions{
-    makefile: String,
+    _makefile: String,
 }
 
 fn main() {
