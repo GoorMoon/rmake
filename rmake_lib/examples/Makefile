@@ -1,5 +1,5 @@
-#!/usr/bin/make -f
-# Generated automatically from Makefile.in by configure.
+#!/usr/bin/make -f 
+# Generated automatically from Makefile.in by configure. 
 # Un*x Makefile for GNU tar program.
 # Copyright (C) 1991 Free Software Foundation, Inc.
 
