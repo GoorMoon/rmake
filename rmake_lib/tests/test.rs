@@ -34,10 +34,10 @@ mod tests {
     let line = CompleteStr("prefix = /usr/local");
     let expected = Ok((
       CompleteStr(""),
-      MakeFileTokens::VariableDefinition(Variable {
+      MakeFileTokens::VariableDefinition(VariableType::Override(Variable {
         name: String::from("prefix"),
         value: String::from("/usr/local"),
-      }),
+      })),
     ));
 
     assert_eq!(variable_defenition(line), expected);

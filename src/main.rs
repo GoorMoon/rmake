@@ -5,7 +5,7 @@ extern crate rmake_lib;
 use clap::{App, Arg};
 use rmake_lib::validators::path_is_exists;
 
-pub struct MakeOptions{
+pub struct MakeOptions {
     _makefile: String,
 }
 
